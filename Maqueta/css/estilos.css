@@ -1,0 +1,48 @@
+*{
+    border: red solid 1px;
+}
+
+nav ul{
+    background-color: #1E3245;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    text-decoration: none;
+}
+nav div{
+    background-color: #36B9C9;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+#section{
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+}
+#aside{
+    width: 19%;
+    display: inline-block;
+    margin: 0;
+}
+.bienvenida{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button{
+    margin-left: 320px;
+}
+
+.comunidades div{
+    display: inline-block;
+}
+
+.bloques{
+    width: 350px;
+    height: 150px;
+}
+
