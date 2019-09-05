@@ -14,27 +14,53 @@ nav div{
     background-color: #36B9C9;
 }
 
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* p{
+    margin-top: 0;
+    margin-bottom: 10px;
+} */
+
 body{
     width: 100%;
     margin: 0 auto;
+    line-height: 1;
 }
 #section{
-    width: 80%;
+    width: 70%;
     display: inline-block;
     margin: 0;
+    padding: 0;
 }
 #aside{
-    width: 19%;
+    width: 30%;
     display: inline-block;
     margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    float: right;
 }
 .bienvenida{
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .button{
     margin-left: 320px;
+}
+
+.comunidades{
+    text-align: center;
+}
+
+.community{
+    margin-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .comunidades div{
@@ -42,7 +68,82 @@ body{
 }
 
 .bloques{
-    width: 350px;
-    height: 150px;
+    width: 40%;
+    margin: 10px;
 }
 
+.imgproy{
+    width: 45%;
+    display: inline-block;
+}
+
+.text2{
+    width: 50%;
+    display: inline-block;
+    border: none;
+    font-size: 10px;
+    
+}
+
+.proyectos{
+    margin-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.proyectos div{
+    border: 1px solid red;
+    margin: 20px;
+}
+
+.box{
+    padding: 0;
+    line-height: 1;
+}
+
+.box div{
+    display: inline-block;
+}
+
+.imgaside{
+    width: 100%;
+    display: inherit;
+}
+
+.text3{
+    width: 100%;
+    display: inherit;
+    font-size: 9px;
+}
+
+form{
+    text-align: center;
+}
+
+.inscripcion{
+    width: 80%;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: #1E3245;
+}
+
+.final{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.miniboxim{
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+}
+
+h6{
+    margin: 0 !important;
+}
+.miniboxt{
+    width: 58%;
+    margin: 0;
+    display: inline-block;
+}
