@@ -1,13 +1,20 @@
 *{
-    border: red solid 1px;
+    /* border: red solid 1px; */
+}
+nav{
+    background-color: #1E3245;
+    width: 90%;
+    margin: 0 auto;
 }
 
 nav ul{
-    background-color: #1E3245;
-    margin: 0;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 12px;
 }
 nav ul li{
-    display: inline;
+    display: inline-block;
     text-decoration: none;
 }
 nav div{
@@ -18,11 +25,6 @@ main{
     width: 90%;
     margin: 0 auto;
 }
-
-/* p{
-    margin-top: 0;
-    margin-bottom: 10px;
-} */
 
 body{
     width: 100%;
@@ -37,7 +39,6 @@ body{
 }
 #aside{
     width: 30%;
-    display: inline-block;
     margin: 0;
     padding: 0;
     margin-bottom: 100px;
@@ -70,6 +71,7 @@ body{
 .bloques{
     width: 40%;
     margin: 10px;
+    background-color: #1E3245;
 }
 
 .imgproy{
@@ -90,9 +92,29 @@ body{
     width: 80%;
     margin: 0 auto;
 }
-.proyectos div{
-    border: 1px solid red;
-    margin: 20px;
+
+
+.imgproy{
+    display: inline-block; 
+    width: 50%; 
+    margin: 0;
+}
+
+.divproy{
+    width: 50%; 
+    margin: 0; 
+    float: right;
+}
+
+.proyectos_box{
+    background-color: #36B9C9;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.divproy p{
+    width: 100%; 
+    margin: 0;
 }
 
 .box{
@@ -122,6 +144,8 @@ form{
 .inscripcion{
     width: 80%;
     border: 1px solid black;
+    margin: 0 auto;
+    background-color: #1E3245;
 }
 
 footer{
@@ -134,16 +158,34 @@ footer{
 }
 
 .miniboxim{
-    width: 40%;
-    display: inline-block;
+    display: inline-block; 
+    width: 50%; 
     margin: 0;
 }
 
-h6{
-    margin: 0 !important;
-}
 .miniboxt{
-    width: 58%;
-    margin: 0;
-    display: inline-block;
+    width: 50%; 
+    margin: 0; 
+    float: right;
+}
+
+.miniboxt h6{
+   width: 100%;
+   margin: 0 !important;
+}
+
+.miniboxt p{
+    width: 100%; 
+    margin: 0; 
+    font-size: 9px;
+}
+
+.actualidad_box{
+    background-color: #36B9C9;
+    margin-bottom: 30px;
+    color: #ffffff;     
+}
+.tags{
+    margin: 0 auto;
+    width: 80%;
 }
