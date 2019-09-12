@@ -33,7 +33,7 @@
     </div>
       
   </div>
-  <div class="top" id="navbar">
+  <div class="nav" id="navbar">
     <div class="container" >
         <!-- navbar -->
         <div class="col-12 navegador">
@@ -95,7 +95,7 @@
                   </div>
       
                   <div class="carousel-item">
-                    <img src="./images/naruto3.jpg" class="d-block w-100" alt="..." width="450px" height="35  0px">
+                    <img src="./images/imagen1.png" class="d-block w-100" alt="..." width="450px" height="350px">
                       <p class="floatText">
                           Hola a todos
                       </p>
@@ -275,19 +275,21 @@
           </div>
       </div>
         
-
       <script>
-          var nav = document.getElementById('navbar')
-
-          window.onscroll = function(){
-            if(window.pageYOffset > 100){
-              nav.style.position = "fixed"
-              nav.style.top = 0
-            }else{
-              //nav.style.position = "absolute"
-              nav.style.top = 100
-            }
+        var nav = document.getElementById('navbar')
+      
+        window.onscroll = function(){
+          if(window.pageYOffset > 100){
+            nav.style.position = "fixed"
+            nav.style.top = 0
+          }else{
+            nav.style.position = "absolute"
+            nav.style.top = "100px"
           }
-        </script>
+        }
+      </script>
+
+      
 </body>
+
 </html>

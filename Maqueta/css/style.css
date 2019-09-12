@@ -33,13 +33,13 @@
  .bannerSup{
      padding:20px;
  }
- .top{
-    background-color: #1E3245;
-    color: white;
-    /* position: fixed; */
-    /* top: 0; */
-    z-index: 2;
-    width: 100%;
+ #navbar{
+   background-color: #1E3245;
+   color: white;
+    
+    
+   z-index: 2;
+   width: 100%;
 }
 
  .menu{
