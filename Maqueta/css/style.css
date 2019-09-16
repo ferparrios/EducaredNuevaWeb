@@ -69,14 +69,16 @@
  #navbar{
    background-color: #1E3245;
    color: white;
-    
-    
    z-index: 2;
    width: 100%;
 }
 
  .menu{
     font-size: 11px;
+ }
+
+ .burguer-menu{
+    display: none;
  }
 
  .bienvenida{
@@ -184,6 +186,8 @@
    float: right;
  }
 
+ 
+
 
  /* Responsive */
 
@@ -191,14 +195,41 @@
  No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+@media (max-width: 576px) { 
+   .burguer-menu{
+      width: 40px;
+      height: 40px;
+      background-color: red;
+      display: block;
+   }
+   .navegador{
+      display: none;
+   }
+   
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (max-width: 768px) { 
+   .navegador{
+      display: none;
+   }
+   .principal{
+      display: block;
+   }
+   
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+/* @media (min-width: 992px) { 
+   .navegador{
+      display: none;
+   }
+} */
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+/* @media (min-width: 1200px) { 
+   .navegador{
+      display: none;
+   }
+} */
  
