@@ -196,9 +196,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 320px) { 
-   .container{
-      width: 100%;
-   }
+   
 
    .burguer-menu{
       width: 40px;
@@ -221,6 +219,9 @@
    .navegador{
       display: none;
    }
+   .fotimg{
+      display: none;
+   }
    
 }
 
@@ -233,6 +234,9 @@
       display: block;
    }
    .navegador{
+      display: none;
+   }
+   .fotimg{
       display: none;
    }
 }
