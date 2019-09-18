@@ -195,7 +195,23 @@
  No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
+@media (min-width: 320px) { 
+   .container{
+      width: 100%;
+   }
+
+   .burguer-menu{
+      width: 40px;
+      height: 40px;
+      background-color: red;
+      display: block;
+   }
+   .navegador{
+      display: none;
+   }
+   
+}
+@media (min-width: 576px) { 
    .burguer-menu{
       width: 40px;
       height: 40px;
@@ -209,27 +225,19 @@
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
+@media (min-width: 768px) { 
    .navegador{
       display: none;
    }
-   .principal{
-      display: block;
-   }
-   
 }
 
 /* Large devices (desktops, 992px and up) */
 /* @media (min-width: 992px) { 
-   .navegador{
-      display: none;
-   }
+   
 } */
 
 /* Extra large devices (large desktops, 1200px and up) */
 /* @media (min-width: 1200px) { 
-   .navegador{
-      display: none;
-   }
+  
 } */
  
