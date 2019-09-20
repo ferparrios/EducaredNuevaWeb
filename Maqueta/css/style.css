@@ -63,8 +63,20 @@
     background-color: #36B9C9;
  }
 
- .bannerSup{
-     padding:20px;
+ .imgBanner1{
+     padding:40px;
+     width: 100%;
+     text-align: left;
+ }
+
+ .imgBanner2{
+    top: 30px;
+    width: 100%;
+    text-align: right;
+ }
+
+ .imgBanner2 img{
+   text-align: right;
  }
  #navbar{
    background-color: #1E3245;
