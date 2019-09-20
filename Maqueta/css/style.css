@@ -115,6 +115,10 @@
     margin: 10px 0 0;
  }
 
+ .input{
+   border-radius: 25px;
+ }
+
 
  .proyectos{
      margin: 40px 0;
