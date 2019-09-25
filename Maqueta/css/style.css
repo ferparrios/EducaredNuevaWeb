@@ -48,16 +48,43 @@
     text-align: center;
     background-color: #1E3245;
 }
+.menu{
+   background-color: #1E3245;
+   position: sticky;
+   height: 50px;
+}
+.menu ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   
+   
+}
+.menu ul li{
+   text-decoration: none;
+   list-style: none;
+   color: white;
+   width: 100%;
+   padding-top: 10px;
+   /* padding-bottom: 10px; */
+   text-align: center;
+   height: 50px;
+   
+}
+.menu ul li:hover{
+   border: 2px red solid;
+}
 
-.navegador nav div a{
+/* .navegador nav div a{ */
     /* width: 150px; */
-    width: 14em;
+    /* width: 14em;
     background-color: #1E3245;
 }
 .menu > li > a{
    position: relative;
 	display: inline-block;
-}
+} */
 .submenu{
    position: absolute;
 	background: #1E3245;
