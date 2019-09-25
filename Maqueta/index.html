@@ -36,7 +36,7 @@
               
           </div>
             
-            <i class="burguer-menu"></i>
+            
             <!-- <img src="" alt="">
             <img src="" alt="">
             <img src="" alt=""> -->
@@ -44,7 +44,60 @@
     </div>
       
   </div>
-  <div id="navbar">
+  <div class="hamburguesa" id="burguer">
+      <i class="icon-home"> Menú</i>
+  </div>
+  <div id="navbar" class="menu-d">
+      <nav class="dropdownmenu">
+          <ul>
+            <li><a href="#"><i class="icon-home"></i></a></li>
+            <li><a href="#">Cursos y <br> Capacitaciones</a>
+              <ul id="submenu">
+                  <li><a href="#">Item1</a></li>
+                  <li><a href="#">Item2</a></li>
+                  <li><a href="#">Item3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Comunidades <br> Virtuales</a>
+              <ul id="submenu">
+                <li><a href="#">Item1</a></li>
+                <li><a href="#">Item2</a></li>
+                <li><a href="#">Item3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Recursos <br> Educativos</a>
+              <ul id="submenu">
+                  <li><a href="#">Item1</a></li>
+                  <li><a href="#">Item2</a></li>
+                  <li><a href="#">Item3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Actualidad <br> Educativa</a>
+              <ul id="submenu">
+                  <li><a href="#">Item1</a></li>
+                  <li><a href="#">Item2</a></li>
+                  <li><a href="#">Item3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Prácticas con TIC</a>
+              <ul id="submenu">
+                  <li><a href="#">Item1</a></li>
+                  <li><a href="#">Item2</a></li>
+                  <li><a href="#">Item3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Educación Digital</a>
+              <ul id="submenu">
+                  <li><a href="#">Item1</a></li>
+                  <li><a href="#">Item2</a></li>
+                  <li><a href="#">Item3</a></li>
+                </ul>
+            </li>
+          </ul>
+        </nav>
+  </div>
+  
+  <!-- <div id="navbar">
     <nav class="menu">
       <ul>
         <li>
@@ -57,7 +110,7 @@
           <a href="#">
             Cursos y <br> Capacitaciones
           </a>
-          <ul>
+          <ul id="submenu">
               <li><a href="#">Item1</a></li>
               <li><a href="#">Item1</a></li>
               <li><a href="#">Item1</a></li>
@@ -90,7 +143,7 @@
         </li>
       </ul>
     </nav>
-  </div>
+  </div> -->
   <!-- <div class="nav" id="navbar">
     <div class="container" > -->
         <!-- navbar -->
@@ -391,7 +444,7 @@
         
       <script>
         var nav = document.getElementById('navbar')
-      
+        
         window.onscroll = function(){
           if(window.pageYOffset > 100){
             nav.style.position = "fixed"
@@ -401,7 +454,10 @@
             nav.style.top = "100px"
           }
         }
+
+        
       </script>
+      <script src="../Maqueta/js/app.js"></script>
 
       
 </body>

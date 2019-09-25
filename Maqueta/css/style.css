@@ -44,11 +44,14 @@
     color: white;
  }
 
-.navegador{
+ #burguer{
+    display: none;
+ }
+/* .navegador{
     text-align: center;
     background-color: #1E3245;
-}
-.menu{
+} */
+/* /* .menu{
    background-color: #1E3245;
    position: sticky;
    height: 50px;
@@ -60,21 +63,24 @@
    width: 100%;
    
    
-}
-.menu ul li{
+} */
+/*.menu ul li{
    text-decoration: none;
    list-style: none;
    color: white;
-   width: 100%;
-   padding-top: 10px;
+   width: 100%; */
+   /* padding-top: 10px; */
    /* padding-bottom: 10px; */
-   text-align: center;
-   height: 50px;
+   /* text-align: center; */
+   /* height: 50px; */
+   /* display: flex;
+   align-items: center;
+   justify-content: center;
    
-}
-.menu ul li:hover{
+} */
+/* .menu ul li:hover{
    border: 2px red solid;
-}
+} */
 
 /* .navegador nav div a{ */
     /* width: 150px; */
@@ -85,33 +91,81 @@
    position: relative;
 	display: inline-block;
 } */
-.submenu{
-   position: absolute;
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+.dropdownmenu ul {
+   background: #1E3245;
+	list-style: none;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   height: 40px;
+   margin: 0;
+}
+.dropdownmenu li {
+   /* display: block; */
+   background: #1E3245;
+   align-items: center;
+   justify-content: center;
+	/* float: left; */
+	position: relative;
+   width:100%;
+   padding: 0;
+   height: 40px;
+}
+.dropdownmenu a {
 	background: #1E3245;
-	/* width: 100%; */
-	visibility: hidden;
+	color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+	font: bold 12px/20px sans-serif;
+	/* padding: 10px 25px; */
+	text-align: center;
+	text-decoration: none;
+   /* display: flex;
+   align-content: center;
+   justify-content: center; */
+   height: 40px;
+   width: 100%;
+   padding: 0;
+}
+.dropdownmenu li:hover a {
+   background: white;
+   color: black;
+}
+#submenu {
+   /* margin-top: 10px; */
+	left: 0;
 	opacity: 0;
-	transition: opacity 1.5s;
-}
-.submenu ul{
-   position: absolute;
-   width: 14em;
+	position: absolute;
+	/* top: 55px; */
+	visibility: hidden;
+   z-index: 1;
    display: block;
-   padding-top: 150px;
+   width: 100%;
+   padding: 0;
+   
 }
-.submenu li a{
-   position: relative;
-	display: block;
-	padding: 15px;
-	color: #fff;
-	font-family: 'Open sans';
-   text-decoration: none;
-   z-index: 2;
-}
-.nav-item:hover .submenu ul li a{
-   visibility: visible;
-   display: block;
+li:hover ul#submenu {
 	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #ffffff;
+}
+#submenu a {
+   background-color:#1E3245;
+   /* height: auto; */
+   z-index: 1;
+   width: 100%;
 }
 
  h2{
@@ -310,7 +364,7 @@
       background-color: red;
       display: block;
    }
-   .navegador{
+   .dropdownmenu{
       display: none;
    }
    .footer{
@@ -340,9 +394,21 @@
       height: 40px;
       background-color: red;
       display: block;
+      z-index: 1;
    }
-   .navegador{
+   .arriba{
+      padding-bottom: 50px;
+   }
+   .dropdownmenu{
       display: none;
+   }
+   #burguer{
+      border: 1px solid red;
+      text-align: center;
+      background-color: #1E3245;
+      color: white;
+      position: fixed;
+      width: 100%;
    }
    /* .bienvenida{
       padding-top: 30px;
