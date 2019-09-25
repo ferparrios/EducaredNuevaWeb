@@ -43,10 +43,9 @@
     padding:  25px 0;
     color: white;
  }
-
- #burguer{
-    display: none;
- }
+.hamburguesa{
+   display: none;
+}
 /* .navegador{
     text-align: center;
     background-color: #1E3245;
@@ -402,13 +401,15 @@ li:hover ul#submenu {
    .dropdownmenu{
       display: none;
    }
-   #burguer{
+   .hamburguesa{
+      display: block;
       border: 1px solid red;
       text-align: center;
       background-color: #1E3245;
       color: white;
       position: fixed;
       width: 100%;
+      z-index: 3;
    }
    /* .bienvenida{
       padding-top: 30px;
