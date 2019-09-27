@@ -176,13 +176,13 @@ li:hover ul#submenu {
  }
 
  .imgBanner1{
-     padding:40px;
+     padding:60px;
      width: 100%;
      text-align: left;
  }
 
  .imgBanner2{
-    top: 30px;
+    padding-top: 50px;
     width: 100%;
     text-align: right;
  }
@@ -402,18 +402,32 @@ li:hover ul#submenu {
       display: none;
    }
    .hamburguesa{
-      display: block;
-      border: 1px solid red;
+      display: flex;
+      /* border: 1px solid red; */
       text-align: center;
       background-color: #1E3245;
       color: white;
-      position: fixed;
+      /* position: fixed; */
       width: 100%;
       z-index: 3;
+      
    }
+   .imgBanner1{
+      padding:0;
+      width: 100%;
+  }
+  .imgBanner1 img{
+     width: 100%;
+     padding-top: 10px;
+  }
+   .imgBanner2{
+      padding: 0;
+   }
+   .imgBanner2 img{
+      padding-top: 18px;
    /* .bienvenida{
       padding-top: 30px;
-  } */
+  } */}
    .footer{
       display: none;
    }

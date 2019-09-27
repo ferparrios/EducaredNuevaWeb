@@ -44,10 +44,16 @@
     </div>
       
   </div>
-  <div class="hamburguesa" id="burguer">
-      <i class="icon-home"> Menú</i>
-  </div>
+  
+      
+ 
+  
+  
   <div id="navbar" class="menu-d">
+      <div class="hamburguesa" >
+          <i class="icon-home"> Menú</i>
+      </div>
+      
       <nav class="dropdownmenu">
           <ul>
             <li><a href="#"><i class="icon-home"></i></a></li>
@@ -446,15 +452,18 @@
         var nav = document.getElementById('navbar')
         
         window.onscroll = function(){
+
           if(window.pageYOffset > 100){
             nav.style.position = "fixed"
             nav.style.top = 0
-          }else{
+          }
+          else{
             nav.style.position = "absolute"
-            nav.style.top = "100px"
+            nav.style.top = "140px"
           }
         }
 
+        
         
       </script>
       
