@@ -142,7 +142,7 @@
 	position: absolute;
 	/* top: 55px; */
 	visibility: hidden;
-   z-index: 1;
+   z-index: 2;
    display: block;
    width: 100%;
    padding: 0;
@@ -151,20 +151,23 @@
 li:hover ul#submenu {
 	opacity: 1;
 	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
+   visibility: visible;
+   
 }
 #submenu li {
 	float: none;
 	width: 100%;
 }
 #submenu a:hover {
-	background: #ffffff;
+   background: #ffffff;
+   color: black;
 }
 #submenu a {
    background-color:#1E3245;
    /* height: auto; */
    z-index: 1;
    width: 100%;
+   color: white;
 }
 
  h2{
